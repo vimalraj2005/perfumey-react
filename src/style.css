@@ -1,0 +1,83 @@
+.Navbar {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+    align-items: center;
+}
+
+.Navbar-sections{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    cursor: pointer;
+}
+.Navbar-sections li:hover{
+    color: grey;
+    transition: 75ms;
+}
+
+.Search-bar{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 50px;
+}
+
+input{
+    padding: 15px 150px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.box{
+    width: 220px;
+    border: 2px solid black;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    
+ }
+img{
+    width: 220px;
+}
+
+.Products{
+    margin-top: 100px;
+    text-align: center;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+
+}
+.box:hover{
+    background-color: black;
+    color: white;
+    transform: scale(1.05);
+    transition: 1s;
+}
+
+.Aboutus{
+    text-align: center;
+   padding: 10px;
+   margin: 0 auto;
+   width: 75%;
+}
+
+.Footer{
+    background-color: black;
+    color: grey;
+    text-align: center;
+    padding: 10px;
+}
+.Footer p{
+    width: 75%;
+    margin: 0 auto;
+}
+.Footer h2:hover, .Footer p:hover {
+    color: white; 
+    transition: color .5s; 
+    cursor: pointer;
+}
